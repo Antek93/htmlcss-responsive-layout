@@ -78,22 +78,27 @@
 
 /* Main  */
 
+.cards {
+    paddint-top: 7rem;
+}
+
 .card-box {
     display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-    padding-top: 6rem;
-    margin: 0 auto;
-
 }
 
 .col {
     display: flex;
-    width: 50%;
+    width: 25%;
 
 }
 
 .col img {
     width: 100%;
 }
+
+.debug {
+    background-color: var(--light-blue-color);
+}
+
+
 
