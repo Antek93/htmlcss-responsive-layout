@@ -6,3 +6,72 @@
     box-sizing: border-box;
 }
 
+/* REGOLE GENERALI */
+
+:root {
+    --blue-color: #0084fd;
+    --light-blue-color: #b5ddff;
+    --purple-color: #9792e4;
+    --padding: 1rem;
+}
+
+.wide-container {
+    width: 100vw;
+    position: fixed;
+    background-color: var(--blue-color);
+}
+
+.narrow-container {
+    min-width: 320px;
+}
+
+/* ELEMENTI A SCOMPARSA  */
+
+.desktop {
+    display: none;
+}
+
+/* Header */
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 40px;
+    padding: var(--padding) 0px;
+}
+
+#row2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.menu > ol {
+    display: flex;
+    justify-content: center;
+   
+}
+
+.menu > * {
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+.menu > ol > li {
+    padding: 0px 1rem;
+}
+
+.row img {
+    padding: 0px 1rem;
+    width: 100%;
+}
+
+.mobile > * {
+    font-size: 30px;
+    color: #2c3535;
+    padding: 10px;
+} 
+
+
