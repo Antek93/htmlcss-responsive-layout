@@ -236,6 +236,24 @@
         padding: 10px 10px;
     }
 
+    /* SECTION 5 */
+
+    .about-us {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+
+    }
+
+    .main-about-us {
+        width: 70%;
+    }
+
+    .linkedin {
+        width: 30%;
+    }
+
+
 }
 
 
