@@ -58,9 +58,29 @@
         width: 100%;
     }
 
-}
 
     /* REGOLE SECTION 3 */
+
+    .person {
+        margin: 1rem 1rem;
+        justify-content: flex-start;
+    }
+
+    .block-img {
+        width: 30%;
+    }
+    
+    .block-text {
+        width: 70%;
+    }
+
+    .person img {
+        width: 100%;
+        border-radius: 50%;
+        padding: 10px 20px 10px 20px;
+    }
+        
+}
 
 @media screen and (min-width: 1024px) {
     
@@ -152,6 +172,23 @@
         align-items: center;
     }
 
+     /* REGOLE SECTION 3 */
 
+     .block-img > img {
+        width: 100%;
+        border-radius: 50%;
+    }
+
+     .block-img {
+        width: 30%;
+        padding: 10px 20px 10px 20px;
+     }
+
+     .block-text {
+    
+        width: 70%;
+     }
+     
 }
+
 
