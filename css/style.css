@@ -77,10 +77,31 @@ body {
     padding-right: 10px;
 }
 
+.white-font {
+    color: white;
+}
+
+.laptop {
+    padding-bottom: 15px;
+}
+
+.title {
+    text-align: center;
+}
+
+
 /* ELEMENTI A SCOMPARSA  */
 
 .desktop {
     display: none;
+}
+
+.arrow {
+    background-color: var(--purple-color);
+    border-radius: 50%;
+    padding: 10px 10px;
+    display: flex;
+    margin: 2px 2px 2px 2px;
 }
 
 /* Header */
@@ -166,29 +187,22 @@ body {
 
 
 .left-block *, .right-block * {
-    padding: 20px 10px;
+    padding: 10px 10px;
     display: flex;
-    justify-content: center;
 }
 
-.left-block > h2 {
-    font-size: 45px;
-    color: white;
-}
 
 .right-block {
     background-color: white;
-    border-radius: 5%;
-    margin: 0px 20px;
-    padding-bottom: 4rem;
-
+    border-radius: 20px;
+    margin: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
 
 /* SECTION 3  */
-
-.title {
-    text-align: center;
-}
 
 .people {
     display: flex;
@@ -252,10 +266,6 @@ body {
 
 .about-us {
     margin: 10px 20px;
-}
-
-.narrow-container > h2 {
-    text-align: center;
 }
 
 .linkedin img {
