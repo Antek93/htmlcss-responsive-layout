@@ -57,8 +57,10 @@
     #right-col {
         width: 100%;
     }
+
 }
 
+    /* REGOLE SECTION 3 */
 
 @media screen and (min-width: 1024px) {
     
@@ -149,26 +151,7 @@
         justify-content: space-between;
         align-items: center;
     }
-    
-    /* REGOLE SECTION 3 */
-    
-    .testimonials {
-        text-align: center;
-    }
 
-    .people {
-        display: flex;
-        flex-wrap: wrap;
-        
-    }
 
-    .person {
-        width: 100%;
-    }
-
-    .person img {
-        width: 100%;
-    }
 }
-
 

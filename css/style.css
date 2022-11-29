@@ -148,3 +148,29 @@
     padding-bottom: 4rem;
 
 }
+
+/* SECTION 3  */
+
+.testimonials {
+    text-align: center;
+}
+
+.people {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.person {
+    width: 100%;
+    display: flex;
+    background-color: var(--purple-color);
+    border-radius: 20px;
+    margin: 1rem 0px;
+}
+
+.person img {
+    width: 50%;
+    border-radius: 50%;
+    
+}
