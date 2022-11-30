@@ -67,6 +67,11 @@
 
     .planning {
         font-size: 60px;
+        margin: 0px 20px;
+    }
+
+    .left-block > div:last-child {
+        margin: 0px 20px;
     }
 
 
